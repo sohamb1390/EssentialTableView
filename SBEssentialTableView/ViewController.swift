@@ -184,12 +184,13 @@ extension ViewController: UIViewControllerPreviewingDelegate {
         
         if let stateName: String = self.stateArray[indexPath.section] as String {
             if let arrCities:[City] = self.loopThroughArray(stateName) {
-                let previewCityObj = arrCities[indexPath.row]
-                previewViewController.detailAnnotation = previewCityObj.annotation
-                previewViewController.detailLatitude = previewCityObj.latitude
-                previewViewController.detailLongitude = previewCityObj.longitude
-                previewViewController.detailTitle = previewCityObj.cityName
-            }
+                    if let previewCityObj: City = arrCities[self.selectedIndexPath!.row] {
+                        detailsVC.detailAnnotation = previewCityObj.annotation
+                        detailsVC.detailLatitude = previewCityObj.latitude
+                        detailsVC.detailLongitude = previewCityObj.longitude
+                        detailsVC.detailTitle = previewCityObj.cityName
+                    }
+                }
         }
         
         // Preferred Content Size for Preview (CGSize)
