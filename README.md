@@ -1,4 +1,5 @@
 EssentialTableView
+![alt tag](https://github.com/sohamb1390/EssentialTableView/blob/master/Simulator%20Screen%20Shot%2017-Jul-2016%2C%2012.21.10%20PM.png)
 
 A Complete detailed project on UITableView which includes
 
