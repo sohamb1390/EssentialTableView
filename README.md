@@ -1,5 +1,4 @@
 EssentialTableView
-![alt text](screenshots/https://bitbucket.org/repo/B4x75n/images/2591718117-Simulator%20Screen%20Shot%2017-Jul-2016,%2012.21.10%20PM.png "Snap taken for a reference")
 
 A Complete detailed project on UITableView which includes
 
