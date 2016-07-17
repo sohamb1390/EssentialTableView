@@ -2,7 +2,7 @@ EssentialTableView
 
 A Complete detailed project on UITableView which includes
 
-1. Parallax Effects on UITableViewCel: 
+1. Parallax Effects on UITableViewCell: 
 
 You just have to take the UITableView subclass "ParallaxCell.swift" along with the XIB file "ParallaxCell.xib" and the
 model class "CellModel.swift". In the "ViewController.swift" file there are three methods which you have to take out along
